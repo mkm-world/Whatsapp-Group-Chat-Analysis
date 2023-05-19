@@ -27,6 +27,15 @@ The data sourcing for this task was simple since WhatsApp enables users to expor
 ## Data Extraction and Preprocessing 
 The data extraction process was done in a jupyter notebook, more precisely google collaboratory Notebook. The extraction can be grouped into the following major steps:
  - Reading the raw text file 
+```python
+# deifining a function to read the raw text file
+def read_file(file):
+    '''Reads Whatsapp text file into a list of strings''' 
+    x = open(file,'r', encoding = 'utf-8') #Opens the text file into variable x but the variable cannot be explored yet
+    y = x.read() #By now it becomes a huge chunk of string that we need to separate line by line
+    content = y.splitlines() #The splitline method converts the chunk of string into a list of strings
+    return content
+ ```
 - Joining split lines and separating them with a full stop.
 - Separating notifications from messages 
 - Extracting date and time from chats 
@@ -52,7 +61,7 @@ def anonymize(number):
     This function masks all phone numbers by replacing the last 4 digits of all numbers with 'xxxx'
     Args:
         number (str): the number to be masked
-    """
+"""
   try :
     if '+' in number:
       new_number  = number[:-4]

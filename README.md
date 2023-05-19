@@ -9,3 +9,11 @@ As the newly appointed Team Lead of my University’s DSN group, I wanted to fin
 
 ## Data Sourcing 
 The data sourcing for this task was simple since WhatsApp enables users to export chats with a few clicks of buttons. So the procedure is to open the group chat, click on the three dots on the top right corner, then ‘More’ then ‘’Export chat’, it then brings up a prompt that asks whether to export chat without media or not, for my case I exported without media. So I saved the raw ‘.txt’files of the exported chats to my drive.
+
+## Data Extraction and Preprocessing 
+The data extraction process was done in a jupyter notebook, more precisely google collaboratory Notebook. The extraction can be grouped into the following major steps:
+ - Reading the raw text file 
+- Joining split lines and separating them with a full stop.
+- Separating notifications from messages 
+- Extracting date and time from chats 
+- Extracting ‘Added_df’, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added   members, and the time and date the person was added.

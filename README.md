@@ -5,7 +5,7 @@ DSN FUNAAB is the student community of the Data Scientist Network at the Federal
 This project is an analysis of messages in the DSN FUNAAB Whatsapp group. The Data Extraction and Processing were done with Python and visualization using Power BI. I wrote a Medium post explaining my insights in more detail. Check it out HERE
 
 ## Problem Statement 
-As the newly appointed LEAD of my University’s DSN group, I wanted to find out who the most active members in the group, the best time and days to post. These and many more led to me using my data analytics skill to solve this problem. 
+As the newly appointed Team Lead of my University’s DSN group, I wanted to find out who the most active members in the group, the best time and days to post. These and many more led to me using my data analytics skill to solve this problem. 
 
 ## Data Sourcing 
 The data sourcing for this task was simple since WhatsApp enables users to export chats with a few clicks of buttons. So the procedure is to open the group chat, click on the three dots on the top right corner, then ‘More’ then ‘’Export chat’, it then brings up a prompt that asks whether to export chat without media or not, for my case I exported without media. So I saved the raw ‘.txt’files of the exported chats to my drive.

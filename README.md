@@ -44,3 +44,21 @@ The data extraction process was done in a jupyter notebook, more precisely googl
     - **Word_Count**: Number of words in the message
 
 - Masking phone numbers in the chat. This was done to protect the privacy of the members of the group chat.
+
+```python
+# Defining The Mask Function
+def anonymize(number):
+"""
+    This function masks all phone numbers by replacing the last 4 digits of all numbers with 'xxxx'
+    Args:
+        number (str): the number to be masked
+    """
+  try :
+    if '+' in number:
+      new_number  = number[:-4]
+      new_number+= 'xxxx'
+      return new_number
+    else :
+      return number
+  except TypeError:
+    return np.NaN

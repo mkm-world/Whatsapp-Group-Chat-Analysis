@@ -1,10 +1,8 @@
 # Whatsapp-Group-Chat-Analysis
 <p align="center">
-  <img src="screenshots/thumbnail1.jpg" style= "width: 400px; height: 450px" title="hover text">
-  <img src="screenshots/thumbnail2.jpg" style= "width: 400px; height: 450px" title="hover text">
+  <img src="screenshots/thumbnail1.jpg" style= "width: 900px; height: 450px" title="hover text">
 </p>
 
-![intro_thumbnail](screenshots/thumbnail1.jpg)
 ## Introduction
 DSN FUNAAB is the student community of the Data Scientist Network at the Federal University of Agriculture, Abeokuta. It is the group of all data scientists and data enthusiasts in FUNAAB. The WhatsApp group was created to connect data scientists in the university and share resources, upcoming events, and opportunities with community members.
 

@@ -10,7 +10,7 @@ This project is an analysis of messages in the DSN FUNAAB Whatsapp group. The Da
 
 ## Problem Statement 
 <p align="center">
-  <img src="screenshots/DSN-Logo.png" style= "width: 900px; height: 250px" title="DSN logo">
+  <img src="screenshots/DSN-Logo.png" style= "width: 600px; height: 250px" title="DSN logo">
 </p>
 As the newly appointed Team Lead of my University’s DSN group, I wanted to find out who the most active members in the group, the best time and days to post. These and many more led to me using my data analytics skill to solve this problem. 
 

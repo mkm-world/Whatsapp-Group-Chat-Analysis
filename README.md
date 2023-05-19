@@ -17,6 +17,13 @@ As the newly appointed Team Lead of my University’s DSN group, I wanted to fin
 ## Data Sourcing 
 The data sourcing for this task was simple since WhatsApp enables users to export chats with a few clicks of buttons. So the procedure is to open the group chat, click on the three dots on the top right corner, then ‘More’ then ‘’Export chat’, it then brings up a prompt that asks whether to export chat without media or not, for my case I exported without media. So I saved the raw ‘.txt’files of the exported chats to my drive.
 
+<p align="center">
+  <img src="screenshots/Export chat 1.jpg" style= "width: 600px; height: 250px" title="step 1">
+  <img src="screenshots/Export chat 2.jpg" style= "width: 600px; height: 250px" title="step 2">
+  <img src="screenshots/Export chat 3.jpg" style= "width: 600px; height: 250px" title="step 3">
+  <img src="screenshots/Export Chat 4.jpg" style= "width: 600px; height: 250px" title="step 4">
+</p>
+
 ## Data Extraction and Preprocessing 
 The data extraction process was done in a jupyter notebook, more precisely google collaboratory Notebook. The extraction can be grouped into the following major steps:
  - Reading the raw text file 

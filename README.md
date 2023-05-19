@@ -1,7 +1,7 @@
 # Whatsapp-Group-Chat-Analysis
 <p align="center">
-  <img src="screenshots/thumbnail1.jpg" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="screenshots/thumbnail1.jpg" style= "width: 900px; height: 450px" title="hover text">
+  <img src="screenshots/thumbnail2.jpg" style= "width: 900px; height: 450px" title="hover text">
 </p>
 
 ![intro_thumbnail](screenshots/thumbnail1.jpg)

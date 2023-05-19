@@ -16,11 +16,11 @@ The data extraction process was done in a jupyter notebook, more precisely googl
 - Joining split lines and separating them with a full stop.
 - Separating notifications from messages 
 - Extracting date and time from chats 
-- Extracting `Added_df`, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added   members, and the time and date the person was added.
+- Extracting `added_df`, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added   members, and the time and date the person was added.
 - Extracting `joined_df`, this dataframe contains all actions about people invited to the group. It contains the name/number of the subject, the time, and the date the person joined.
-- Extracting `Left_df`, this dataframe contains all actions about people leaving the the group. It contains the name/number of the member, the time, and the date the member left.
-- Extracting `Removed_df`, this dataframe contains all actions about people removed from  the group. It contains the name/number of the remover, the name/number of the removed, the time, and the date the person was removed.
-- Extracting `messages df`, The `messages_df` contains info about all the messages sent in the group. The columns include:
+- Extracting `left_df`, this dataframe contains all actions about people leaving the the group. It contains the name/number of the member, the time, and the date the member left.
+- Extracting `removed_df`, this dataframe contains all actions about people removed from  the group. It contains the name/number of the remover, the name/number of the removed, the time, and the date the person was removed.
+- Extracting `messages_df`, The `messages_df` contains info about all the messages sent in the group. The columns include:
     - **Name**: name or phone number of the sender
      - **Content**: The content of the message
     - **Hour**: The hour the message was sent

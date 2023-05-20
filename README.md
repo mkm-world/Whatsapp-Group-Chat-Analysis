@@ -1,4 +1,4 @@
-# Whatsapp-Group-Chat-Analysis
+# Whatsapp Group Chat Analysis: DSN FUNAAB
 <p align="center">
   <img src="screenshots/thumbnail1.jpg" style= "width: 900px; height: 450px" title="hover text">
 </p>

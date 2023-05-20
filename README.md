@@ -71,3 +71,10 @@ def anonymize(number):
       return number
   except TypeError:
     return np.NaN
+  ```
+ ## Data Analysis and visualization
+The cleaned datasets was Explored using python and then visualized using Power BI. There is no data model used in this project. 
+The Report I made is shown below
+<p align="center">
+  <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 500px; height: 250px" title="Whatsapp analysis dashboard">
+</p>

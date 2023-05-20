@@ -75,6 +75,6 @@ def anonymize(number):
  ## Data Analysis and visualization
 The cleaned datasets was Explored using python and then visualized using Power BI. There is no data model used in this project. 
 The Report I made is shown below
-<p align="center">
+<p>
   <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 900px; height: 500px" title="Whatsapp analysis dashboard">
 </p>

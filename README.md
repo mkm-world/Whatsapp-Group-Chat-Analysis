@@ -86,5 +86,5 @@ I then created a word cloud to visualize the qualitative data in order to find o
 
 The DSN FUNAAB WhatsApp group is an interactive group that allows every member of the group to send messages at will, hence there are lots of engagements from multiple users. But, the data shows that Busayo is the most active member of the group which shows that he is excelling at his responsibility as he is the Team Lead of the community
 <p>
-  <img src="screenshots/most_active_members.jpg" style= "width: 400px; height: 400px" title="Most Active Members">
+  <img src="screenshots/most_active_members.jpg" style= "width: 600px; height: 400px" title="Most Active Members">
 </p>

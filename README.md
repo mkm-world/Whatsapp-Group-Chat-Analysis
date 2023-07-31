@@ -81,7 +81,7 @@ The Report I made is shown below
 
 I then created a word cloud to visualize the qualitative data in order to find out the most commonly used words on the groupchat. The word cloud was done using Power BI and was used as the page background for the dashboard. 
 <p>
-  <img src="screenshots/WordCloud" style= "width: 900px; height: 500px" title="Word Cloud">
+  <img src="screenshots/WordCloud.png" style= "width: 900px; height: 500px" title="Word Cloud">
 </p>
 
 

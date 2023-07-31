@@ -88,3 +88,9 @@ The DSN FUNAAB WhatsApp group is an interactive group that allows every member o
 <p>
   <img src="screenshots/most_active_members.jpg" style= "width: 600px; height: 400px" title="Most Active Members">
 </p>
+
+The period with the lowest overall activity in the group was Jan 2023- Feb 2023. Very few messages were sent during that period. This was caused by the school's second-semester examinations, it was an 'exam period' which implies no time for any extra-curricular activity, just academics.
+
+<p>
+  <img src="screenshots/weekly_messages" style= "width: 800px; height: 400px" title="Weekly Activity">
+</p>

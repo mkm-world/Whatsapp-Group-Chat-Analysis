@@ -79,9 +79,9 @@ The Report I made is shown below
   <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 900px; height: 500px" title="Whatsapp analysis dashboard">
 </p>
 
-I then created a word cloud to visualize the qualitative data in order to find out the most commonly used words on the groupchat. The word cloud was done using Power BI. 
+I then created a word cloud to visualize the qualitative data in order to find out the most commonly used words on the groupchat. The word cloud was done using Power BI and was used as the page background for the dashboard. 
 <p>
-  <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 900px; height: 500px" title="Whatsapp analysis dashboard">
+  <img src="screenshots/WordCloud" style= "width: 900px; height: 500px" title="Word Cloud">
 </p>
 
 

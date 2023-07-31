@@ -96,6 +96,7 @@ The period with the lowest overall activity in the group was Jan 2023- Feb 2023.
 </p>
 
 ## Recommendations
+Some recommendations I can make are:
 
 - Busayo is the most active member and also the best person to reach out to for  issues.
 - The weekends are the best days to post for maximum engagement.

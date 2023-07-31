@@ -73,8 +73,15 @@ def anonymize(number):
     return np.NaN
   ```
  ## Data Analysis and visualization
-The cleaned datasets was Explored using python and then visualized using Power BI. There is no data model used in this project. 
+The cleaned dataset was explored using Python and then visualized using Power BI. There is no data model used in this project. 
 The Report I made is shown below
 <p>
   <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 900px; height: 500px" title="Whatsapp analysis dashboard">
 </p>
+
+I then created a word cloud to visualize the qualitative data in order to find out the most commonly used words on the groupchat. The word cloud was done using Power BI. 
+<p>
+  <img src="screenshots/whatsapp_analysis_final_draft.jpg" style= "width: 900px; height: 500px" title="Whatsapp analysis dashboard">
+</p>
+
+

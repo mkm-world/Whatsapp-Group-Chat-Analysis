@@ -28,7 +28,7 @@ The data sourcing for this task was simple since WhatsApp enables users to expor
 The data extraction process was done in a jupyter notebook, more precisely google collaboratory Notebook. The extraction can be grouped into the following major steps:
  - Reading the raw text file 
 ```python
-# deifining a function to read the raw text file
+# defining a function to read the raw text file
 def read_file(file):
     '''Reads Whatsapp text file into a list of strings''' 
     x = open(file,'r', encoding = 'utf-8') #Opens the text file into variable x but the variable cannot be explored yet
@@ -38,8 +38,17 @@ def read_file(file):
  ```
 - Joining split lines and separating them with a full stop.
 - Separating notifications from messages 
-- Extracting date and time from chats 
-- Extracting `added_df`, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added   members, and the time and date the person was added.
+- Extracting date and time from chats
+```python
+# Defining function to extract date and time from chats 
+def extract_date_time(msgs):
+  time = [msgs[i].split(',')[1].split('-')[0] for i in range(len(msgs))]
+  time = [s.strip(' ') for s in time]
+  date = [msgs[i].split(',')[0] for i in range(len(msgs))]
+  main = [msgs[i].split('-')[1] for i in range(len(msgs))]
+  return pd.DataFrame(zip(date,time,main),columns=['date','time','raw'])
+```
+- Extracting `added_df`, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added members, and the time and date the person was added.
 - Extracting `joined_df`, this dataframe contains all actions about people invited to the group. It contains the name/number of the subject, the time, and the date the person joined.
 - Extracting `left_df`, this dataframe contains all actions about people leaving the the group. It contains the name/number of the member, the time, and the date the member left.
 - Extracting `removed_df`, this dataframe contains all actions about people removed from  the group. It contains the name/number of the remover, the name/number of the removed, the time, and the date the person was removed.

@@ -39,6 +39,7 @@ def read_file(file):
 - Joining split lines and separating them with a full stop.
 - Separating notifications from messages 
 - Extracting date and time from chats
+
 ```python
 # Defining function to extract date and time from chats 
 def extract_date_time(msgs):
@@ -47,7 +48,7 @@ def extract_date_time(msgs):
   date = [msgs[i].split(',')[0] for i in range(len(msgs))]
   main = [msgs[i].split('-')[1] for i in range(len(msgs))]
   return pd.DataFrame(zip(date,time,main),columns=['date','time','raw'])
-```
+  ```
 - Extracting `added_df`, this dataframe contains all actions about people added to the group. It contains the name/number of the adder, the name/number of the added members, and the time and date the person was added.
 - Extracting `joined_df`, this dataframe contains all actions about people invited to the group. It contains the name/number of the subject, the time, and the date the person joined.
 - Extracting `left_df`, this dataframe contains all actions about people leaving the the group. It contains the name/number of the member, the time, and the date the member left.
